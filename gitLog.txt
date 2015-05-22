@@ -1,0 +1,36 @@
+commit 0bc3398f0d91a97f8a12805bdf9601f3eb7925c4
+Merge: 
+46543e4 9e4ac96
+Author: Oliver Hannus <oliver.hannus@gmx.de>
+Date:   Thu May 21 18:04:00 2015 +0200
+
+    
+Merge http://github.com/TecNoir/OLIVERHANNUS.CO
+
+
+
+commit 46543e4baf8f9b85e4b84c67199b01dd8b219da0
+Author: 
+Oliver Hannus <oliver.hannus@gmx.de>
+Date:   Thu May 21 17:31:46 2015 +0200
+
+    first commit
+
+
+
+commit 
+b9f4fc1532826965c7f116803a670ff8bfff53b7
+Author: Oliver Hannus <oliver.hannus@gmx.de>
+Date:   
+Thu May 21 17:10:21 2015 +0200
+
+    first commit
+
+
+
+commit 9e4ac96efa96d1f99aa6a4fc673106d4934d4c0b
+Author: 
+Oliver Hannus <oliver.hannus@gmx.de>
+Date:   Thu May 21 16:37:51 2015 +0200
+
+    Initial commit
