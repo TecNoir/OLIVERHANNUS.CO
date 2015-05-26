@@ -75,6 +75,8 @@ a {
 	float: left;
 	margin-top: 0.25em;
 	max-width: 150px;
+	font-family: 'Lobster', cursive;
+	font-size: 1.4em;
 }
 
 .main-header {
@@ -125,4 +127,32 @@ p, ul, ol {
 	padding: 1em;
 	margin: 0 auto;
 	width: 65vw;
+}
+.contact-box {
+	padding: 2em 0;
+	background-color: #f5f5f5 !important;
+	clear: both;
+}
+.full-width {
+	background-color: white;
+	overflow: hidden;
+}
+.main-footer {
+	padding: 5em 0 2em;
+	font-size: 10px;
+	font-size: 1rem;
+	clear: both;
+	text-align: center;
+}
+#search {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: #fafafa;
+	z-index: 10;
+	overflow-y: auto;
+	text-align: center;
+	display: none;
 }
