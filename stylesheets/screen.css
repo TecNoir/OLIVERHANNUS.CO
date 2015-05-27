@@ -156,3 +156,66 @@ p, ul, ol {
 	text-align: center;
 	display: none;
 }
+.availability-calendar ul {
+	display: flex;
+	flex-flow: row wrap;
+	list-style: outside none none;
+	margin: 0;
+	padding: 0.5em 0;
+	
+}
+.availability-calendar li {
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #ddd;
+	float: left;
+	font-weight: bold;
+	margin: 1px;
+	padding: 0.5em 0.5em 1em;
+	position: relative;
+	width: 24%;
+}
+.availability-calendar li {
+	flex: 1 1 0;
+}
+.availability-calendar li {
+	width: 16%;
+}
+.past-month {
+	background: #eee none repeat scroll 0 0 !important;
+	color: #ddd !important;
+}
+.past-month ::after {
+	background: #888 none repeat scroll 0 0;
+}
+li {
+	margin: 1em 0;
+}
+.current-month::before {
+	background-color: black;
+	color: white;
+	content: "Current";
+	display: block;
+	font-size: 0.4em;
+	font-weight: normal;
+	padding: 0.4em 0.8em;
+	position: absolute;
+	right: 0;
+	top: 1em;
+	
+}
+.availability--status {
+	display: block;
+	font-size: 0.8em;
+	font-weight: normal;
+	margin-top: 1em;
+}
+.full-availability .availability--status {
+	color: #72a53b;
+	font-weight: bold;
+}
+.no-availability .availability--status {
+	color: #ea2a55;
+}
+.partial-availability .availability--status {
+	color: #ff9e06;
+}
