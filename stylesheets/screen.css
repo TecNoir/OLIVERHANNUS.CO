@@ -234,4 +234,11 @@ li {
 }
 h4 {
 	font-size: 1.4em;
+=======
+figure figcaption {
+	font-style: italic;
+	color: #999;
+	padding: .5em 4em;
+	font-size: .8em;
+
 }
