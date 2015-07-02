@@ -189,7 +189,7 @@ li {
 .current-month::before {
 	background-color: black;
 	color: white;
-	content: "Current";
+	content: "aktuell";
 	display: block;
 	font-size: 0.4em;
 	font-weight: normal;
