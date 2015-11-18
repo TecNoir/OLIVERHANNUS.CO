@@ -237,19 +237,67 @@ figure figcaption {
 	color: #00bffF;
 }
 
-.kreis {
+div.kreis {
 
 				position: absolute;
-				top: 130px;
-				right:55px;
+				top: 110px;
+				right:175px;
 
 				border-radius: 50%;
 				border: 2px solid black;
 				height: 200px;
 				width: 200px;
-				background: url(images/freelance2.jpg);
+				background-image: url(images/robert-reiz-2.jpg);
 				background-position: center center;
 				background-repeat: no-repeat;
-				background-size: 150px;
+				background-size: 220px;
 
 			}
+
+#scshBox {
+
+      position: relative;
+      top: 50px;
+      left: 40px;
+      width: 1000px;
+      height: 800px;
+      
+}
+
+.scsh1 {
+
+    position: absolute;
+    top: 10px;
+    left: 77px;
+    width: 350px;
+    height: 145px;
+    
+}
+
+.scsh2 {
+
+    position: absolute;
+    top:10px;
+    right: 77px;
+    width:350px;
+    height: 145px;
+    
+}
+
+.scsh3 {
+
+    position: absolute;
+    bottom:285px;
+    left: 77px;
+    width:350px;
+    height: 145px;
+}
+
+.scsh4 {
+
+    position: absolute;
+    bottom:285px;
+    right: 77px;
+    width:350px;
+    height: 145px;
+}
