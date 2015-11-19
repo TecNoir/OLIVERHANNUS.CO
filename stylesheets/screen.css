@@ -86,9 +86,9 @@ a {
 .logo {
 	float: left;
 	margin-top: 0.25em;
-	max-width: 150px;
+	max-width: 250px;
 	font-family: 'Lobster', cursive;
-	font-size: 1.4em;
+	font-size: 2em;
 }
 
 .main-header {
@@ -210,7 +210,7 @@ li {
 	padding: 0.4em 0.8em;
 	position: absolute;
 	right: 0;
-	top: 1em;
+	top: 5em;
 	
 }
 .availability--status {
@@ -245,4 +245,73 @@ figure figcaption {
 	padding: .5em 4em;
 	font-size: .8em;
 
+}
+
+.blue {
+	color: #00bffF;
+}
+
+div.kreis {
+
+				position: absolute;
+				top: 110px;
+				right:175px;
+
+				border-radius: 50%;
+				border: 2px solid black;
+				height: 200px;
+				width: 200px;
+				background-image: url(images/robert-reiz-2.jpg);
+				background-position: center center;
+				background-repeat: no-repeat;
+				background-size: 220px;
+
+			}
+
+#scshBox {
+
+      position: relative;
+      top: 50px;
+      left: 40px;
+      width: 1000px;
+      height: 800px;
+      
+}
+
+.scsh1 {
+
+    position: absolute;
+    top: 10px;
+    left: 77px;
+    width: 350px;
+    height: 145px;
+    
+}
+
+.scsh2 {
+
+    position: absolute;
+    top:10px;
+    right: 77px;
+    width:350px;
+    height: 145px;
+    
+}
+
+.scsh3 {
+
+    position: absolute;
+    bottom:285px;
+    left: 77px;
+    width:350px;
+    height: 145px;
+}
+
+.scsh4 {
+
+    position: absolute;
+    bottom:285px;
+    right: 77px;
+    width:350px;
+    height: 145px;
 }
