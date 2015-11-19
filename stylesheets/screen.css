@@ -27,6 +27,11 @@ body {
 }
 .main-nav ul li a:hover, .main-nav ul li a:active {
 	color: #00bffF;
+
+	-moz-transform: rotate(-5deg) scale(1.5);		
+		-webkit-transform: rotate(-5deg) scale(1.5);		
+		-o-transform: rotate(-5deg) scale(1.5);		
+		transform: rotate(-5deg) scale(1.5);	
 }
 a:hover, a:active {
 	border-bottom: 1px solid #f12481;
@@ -46,12 +51,19 @@ a {
 	padding: 0.9em;
 	transition: color 0.15s linear 0s;
 	width: 100%;
+
+	-webkit-transition: -webkit-transform 0.3s ease-in-out;
+		-moz-transition: -moz-transform 0.3s ease-in-out;
+		-o-transition: -o-transform 0.3s ease-in-out;
+		transition: transform 0.3s ease-in-out;
 }
 .main-nav ul li {
 	display: inline-block;
 	font-size: 16px;
 	margin: 5px -3px 2px 0;
 	text-transform: uppercase;
+
+
 }
 
 
@@ -162,6 +174,8 @@ p, ul, ol {
 	padding: 0.5em 0.5em 1em;
 	position: relative;
 	width: 24%;
+
+	
 }
 .availability-calendar li {
 	flex: 1 1 0;
