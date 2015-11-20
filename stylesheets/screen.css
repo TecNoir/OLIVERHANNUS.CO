@@ -237,22 +237,24 @@ figure figcaption {
 	color: #00bffF;
 }
 
-div.kreis {
+.kreis {
 
 				position: absolute;
 				top: 110px;
 				right:175px;
 
-				border-radius: 50%;
+				
 				border: 2px solid black;
-				height: 200px;
-				width: 200px;
-				background-image: url(images/robert-reiz-2.jpg);
-				background-position: center center;
+				border-radius: 50%;
+				height: 180px;
+				width: 180px;
+				background-image: url(../images/freelance.jpg);
+				background-position: center left;
 				background-repeat: no-repeat;
-				background-size: 220px;
+				background-size: 265px;
 
 			}
+
 
 #scshBox {
 
