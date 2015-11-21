@@ -31,7 +31,7 @@ body {
     transition-duration: 0.3s;
     transition-property: transform;
     transition-timing-function: ease-in-out;
-	transform: rotate(-12deg) scale(2.5);
+	transform: rotate(-8deg) scale(1.5);
 }
 a:hover, a:active {
 	border-bottom: 1px solid #f12481;
@@ -88,7 +88,7 @@ a {
 .logo:hover {
 	
 	transition: transform 0.3s ease-in-out 0.3s;	
-	transform: rotate(5deg) scale(1.2);
+	transform: scale(1.2);
 }
 
 .main-header {
