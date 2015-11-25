@@ -27,11 +27,19 @@ body {
 }
 .main-nav ul li a:hover, .main-nav ul li a:active {
 	color: #00bffF;
+<<<<<<< HEAD
 
 	-moz-transform: rotate(-5deg) scale(1.5);		
 		-webkit-transform: rotate(-5deg) scale(1.5);		
 		-o-transform: rotate(-5deg) scale(1.5);		
 		transform: rotate(-5deg) scale(1.5);	
+=======
+	transition-delay: 0.3s;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    transition-timing-function: ease-in-out;
+	transform: rotate(-8deg) scale(1.5);
+>>>>>>> f78c25d97d9f598ca17e2159cff1607db92fea95
 }
 a:hover, a:active {
 	border-bottom: 1px solid #f12481;
@@ -51,11 +59,15 @@ a {
 	padding: 0.9em;
 	transition: color 0.15s linear 0s;
 	width: 100%;
+<<<<<<< HEAD
 
 	-webkit-transition: -webkit-transform 0.3s ease-in-out;
 		-moz-transition: -moz-transform 0.3s ease-in-out;
 		-o-transition: -o-transform 0.3s ease-in-out;
 		transition: transform 0.3s ease-in-out;
+=======
+	
+>>>>>>> f78c25d97d9f598ca17e2159cff1607db92fea95
 }
 .main-nav ul li {
 	display: inline-block;
@@ -89,6 +101,12 @@ a {
 	max-width: 250px;
 	font-family: 'Lobster', cursive;
 	font-size: 2em;
+
+}
+.logo:hover {
+	
+	transition: transform 0.3s ease-in-out 0.3s;	
+	transform: scale(1.2);
 }
 
 .main-header {
@@ -254,19 +272,25 @@ figure figcaption {
 .kreis {
 
 				position: absolute;
-				top: 85px;
-				right:65px;
 
-				border-radius: 50%;
-				border: 2px solid rgba(0,0,0,0.4);
-				height: 200px;
-				width: 200px;
-				background-image: url(../images/freelance.jpg);
-				background-position: center center;
-				background-repeat: no-repeat;
+				
 				
 
+				top: 102px;
+				right: 60px;
+
+				
+				border: 2px solid black;
+				border-radius: 50%;
+				height: 180px;
+				width: 180px;
+				background-image: url(../images/freelance.jpg);
+				background-position: center left;
+				background-repeat: no-repeat;
+				background-size: 265px;
+
 			}
+
 
 #scshBox {
 
