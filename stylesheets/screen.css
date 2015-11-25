@@ -251,20 +251,20 @@ figure figcaption {
 	color: #00bffF;
 }
 
-div.kreis {
+.kreis {
 
 				position: absolute;
-				top: 110px;
-				right:175px;
+				top: 85px;
+				right:65px;
 
 				border-radius: 50%;
-				border: 2px solid black;
+				border: 2px solid rgba(0,0,0,0.4);
 				height: 200px;
 				width: 200px;
-				background-image: url(images/robert-reiz-2.jpg);
+				background-image: url(../images/freelance.jpg);
 				background-position: center center;
 				background-repeat: no-repeat;
-				background-size: 220px;
+				
 
 			}
 
@@ -314,4 +314,15 @@ div.kreis {
     right: 77px;
     width:350px;
     height: 145px;
+}
+
+#imp {
+
+	width: 450px;
+	height: 450px;
+	background-color: #d3d3d3;
+	position: fixed;
+	top: 60px;
+	left: 30%;
+
 }

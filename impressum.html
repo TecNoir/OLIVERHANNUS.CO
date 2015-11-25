@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<link href="stylesheets/screen.css" rel="stylesheet">
+    <title>Impressum</title>
+    <script type="text/javascript">
+
+    window.onload = 
+
+    function impress () {
+
+    	var basis = document.getElementById("imp");
+    	var h2 = document.createElement("h2");
+    	h2.innerHTML ="Impressum";
+    	var p = document.createElement("p");
+    	p.innerHTML = "Oliver Hannus Kottenheimer Weg 11a 56727 Mayen";
+    	p.style.cssText = 'font-size: 8px';
+    	basis.appendChild(h2);
+    	h2.appendChild(p);
+    }
+
+
+    </script>
+</head>
+<body>
+	<div id="imp">
+	</div>
+</body>
+</html>
