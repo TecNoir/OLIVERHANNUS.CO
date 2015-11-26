@@ -13,11 +13,20 @@
     	var basis = document.getElementById("imp");
     	var h2 = document.createElement("h2");
     	h2.innerHTML ="Impressum";
+        h2.style.cssText = 'text-align: center';
     	var p = document.createElement("p");
-    	p.innerHTML = "Oliver Hannus Kottenheimer Weg 11a 56727 Mayen";
-    	p.style.cssText = 'font-size: 8px';
-    	basis.appendChild(h2);
+        var impText = "Verantwortlich für den Inhalt dieser Seite:<br><br>Oliver Hannus<br>Kottenheimer Weg 11 a<br>56727 Mayen<br>\r\n"
+            impText += "Tel. 0 26 51/4 80 31<br>contact@oliverhannus.de<br><br>";
+            
+
+    	p.innerHTML = impText;
+    	p.style.cssText = 'font-size: 11px';
+        var disclaimer = document.createElement("a");
+        disclaimer.setAttribute("href", "disclaimer.html");
+        disclaimer.innerHTML = "Disclaimer";
+       	basis.appendChild(h2);
     	h2.appendChild(p);
+        p.appendChild(disclaimer);
     }
 
 
