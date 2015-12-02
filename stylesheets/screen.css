@@ -269,14 +269,8 @@ figure figcaption {
 .kreis {
 
 				position: absolute;
-
-				
-				
-
 				top: 102px;
 				right: 60px;
-
-				
 				border: 2px solid black;
 				border-radius: 50%;
 				height: 180px;
@@ -287,6 +281,15 @@ figure figcaption {
 				background-size: 265px;
 
 			}
+@media screen and (max-width: 568px) {	
+.kreis {
+	height: 70px;
+	width: 70px;
+	background-size: 120px;
+	top: 60px;
+	right: 14px;
+}
+}
 
 
 #scshBox {
