@@ -11,15 +11,69 @@
 	<meta content="freelancer, front-end web developer, HTML5, CSS3, Wolken" name="keywords">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-	<link href="stylesheets/screen.css" rel="stylesheet">
+	<link href="TEST_screen.css" rel="stylesheet">
 
 	
+
+	<script type="text/javascript">
+
+				// Funktioniert!!!!
+
+			function changeStyle () {
+
+			x = (x === farbe.length - 1) ? 0 : x + 1;
+			document.getElementById("logo1").style.color = farbe[x];
+			}
+			
+			function startTimer () {
+
+				setInterval(changeStyle, 3000);
+			}
+
+			var farbe = [], x = -1;
+			farbe[0] = "green";
+			farbe[1] = "red";
+			farbe[2] = "blue";
+			farbe[3] = "yellow";
+
+	</script>
+
+	<script type="text/javascript">
+
+	//that one works
+
+		/*Returns an array-like object of all child elements which have all of the given class names. When called on the document object, the complete document is searched, including the root node. You may also call getElementsByClassName() on any element; it will return only elements which are descendants of the specified root element with the given class names.*/
+
+			function zugriff () {
+
+			var elems = document.getElementsByClassName('logo');
+			for(var i = 0; i < elems.length; i++) {
+   			 elems[i].style.color = 'green';
+   			 elems[i].style.backgroundColor = "yellow";
+			}
+			}
+
+	</script>
+
+	<script type="text/javascript">
+
+	// Zugriff auf die Klasse main-header und deren Elemente
+
+			function all(){
+
+			var what = window.getComputedStyle(document.getElementsByClassName("main-header")[0]);
+			so = what.getProperty("width");
+			alert(so);
+		}
+
+
+	</script>
 	
 	</head>
-<body onload="all()">
+<body onload="startTimer()">
 	<header class="clearfix main-header" role="banner">
 		<div class="wrapper clearfix">
-			<a href="" class="logo">
+			<a href="" class="logo" id="logo1">
 				Oliver Hannus
 			</a>
 		    <nav id="main-nav" class="main-nav" role="navigation">
