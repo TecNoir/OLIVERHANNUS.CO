@@ -27,11 +27,18 @@ body {
 }
 .main-nav ul li a:hover, .main-nav ul li a:active {
 	color: #00bffF;
+
+
+	-moz-transform: rotate(-5deg) scale(1.5);		
+		-webkit-transform: rotate(-5deg) scale(1.5);		
+		-o-transform: rotate(-5deg) scale(1.5);		
+		transform: rotate(-5deg) scale(1.5);
 	transition-delay: 0.3s;
     transition-duration: 0.3s;
     transition-property: transform;
     transition-timing-function: ease-in-out;
 	transform: rotate(-8deg) scale(1.5);
+
 }
 a:hover, a:active {
 	border-bottom: 1px solid #f12481;
@@ -51,13 +58,21 @@ a {
 	padding: 0.9em;
 	transition: color 0.15s linear 0s;
 	width: 100%;
-	
+
+
+	-webkit-transition: -webkit-transform 0.3s ease-in-out;
+		-moz-transition: -moz-transform 0.3s ease-in-out;
+		-o-transition: -o-transform 0.3s ease-in-out;
+		transition: transform 0.3s ease-in-out;
+
 }
 .main-nav ul li {
 	display: inline-block;
 	font-size: 16px;
 	margin: 5px -3px 2px 0;
 	text-transform: uppercase;
+
+
 }
 
 
@@ -175,6 +190,8 @@ p, ul, ol {
 	padding: 0.5em 0.5em 1em;
 	position: relative;
 	width: 24%;
+
+	
 }
 .availability-calendar li {
 	flex: 1 1 0;
@@ -255,8 +272,6 @@ figure figcaption {
 				position: absolute;
 				top: 102px;
 				right: 60px;
-
-				
 				border: 2px solid black;
 				border-radius: 50%;
 				height: 180px;
@@ -267,6 +282,15 @@ figure figcaption {
 				background-size: 265px;
 
 			}
+@media screen and (max-width: 568px) {	
+.kreis {
+	height: 70px;
+	width: 70px;
+	background-size: 120px;
+	top: 60px;
+	right: 14px;
+}
+}
 
 
 #scshBox {
@@ -315,4 +339,152 @@ figure figcaption {
     right: 77px;
     width:350px;
     height: 145px;
+}
+
+#imp {
+
+	width: 450px;
+	height: 450px;
+	background-color: #d3d3d3;
+	position: fixed;
+	top: 60px;
+	left: 30%;
+
+}
+
+@-webkit-keyframes hvr-wobble-vertical {
+  16.65% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+
+  33.3% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+
+  49.95% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+
+  83.25% {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes hvr-wobble-vertical {
+  16.65% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+
+  33.3% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+
+  49.95% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+
+  83.25% {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.hvr-wobble-vertical {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+.hvr-wobble-vertical:hover, .hvr-wobble-vertical:focus, .hvr-wobble-vertical:active {
+  -webkit-animation-name: hvr-wobble-vertical;
+  animation-name: hvr-wobble-vertical;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+.action {
+	
+	text-align: center;
+	
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.button.button--blue {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #1b95e0;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    color: white;
+	
+}
+.button {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(215deg, #ff0084 10%, #b91a62 90%);
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    border-bottom-color: -moz-use-text-color;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.9em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    text-align: center;
+    transition-delay: 0s, 0s;
+    transition-duration: 0.15s, 0.15s;
+    transition-property: background, color;
+    transition-timing-function: linear, linear;
 }
