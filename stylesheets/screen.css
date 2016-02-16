@@ -1,4 +1,4 @@
-0html {
+html {
 	font-size: 100%;
 }
 
@@ -438,6 +438,34 @@ figure figcaption {
 	left: 30%;
 
 }
+
+.t-timeline {
+	
+	float: left;
+	margin-bottom: 30px;
+
+}
+
+#blog {
+
+	width: 50%;
+	float: right;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+#hco {float: clear;}
+
+#tweetod {
+
+	margin-left:30%;
+	margin-bottom: 3em;
+}
+.tweeth2 {
+
+	margin-left: 12%;
+}
+
 
 @-webkit-keyframes hvr-wobble-vertical {
   16.65% {
