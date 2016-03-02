@@ -471,7 +471,76 @@ figure figcaption {
 
 	margin-left: 12%;
 }
+/* Aktuelle Termine */
+.specLines {
 
+	font-size: 2em;
+	text-align: center;
+	text-transform: uppercase;
+}
+.wrapper {
+	margin: 0 auto;
+	max-width: 1500px;
+    width: 85vw;
+    flex-direction: row;
+}
+.container {
+
+	align-items: stretch;
+    display: flex;
+    padding: 1em 0;
+
+
+}
+.box {
+	margin: 3px;
+    list-style: outside none none;
+    border: 1px solid #eee;
+    width: 25%;
+
+
+
+}
+.conferences, .workshops {
+    list-style: outside none none;
+    margin: 2em auto;
+    padding: 0;
+    position: relative;
+
+}
+.conference table {
+    display: inline-block;
+}
+.conference_date {
+    font-size: 2em;
+}
+.conference_date {
+    font-weight: 700;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 2px;
+    text-indent: 0;
+}
+.conference__days {
+    margin-right: 0.25em;
+}
+.conference__month {
+    font-size: 0.6em;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.conference_name {
+    color: #f2337d;
+    font-size: 1.15em;
+    font-weight: 600;
+}
+.conference_location {
+    font-size: 0.9em;
+    font-weight: 400;
+    margin-top: 0.5em;
+}
 
 @-webkit-keyframes hvr-wobble-vertical {
   16.65% {
