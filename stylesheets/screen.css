@@ -167,8 +167,9 @@ p, ul, ol {
 }
 .contact-box {
 	padding: 2em 0;
-	background-color: #d3d3d3 !important;
+	background-color: #d3d3d3!important;
 	clear: both;
+	text-align: center;
 }
 .full-width {
 	background-color: white;
@@ -442,7 +443,7 @@ figure figcaption {
 .t-timeline {
 	
 	float: left;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 
 }
 
@@ -452,9 +453,13 @@ figure figcaption {
 	float: right;
 	margin-top: 0;
 	padding-top: 0;
+	line-height: 2.1em;
 }
 
-#hco {float: clear;}
+#hco {
+
+	float: clear;
+	margin-top: 50px;}
 
 #tweetod {
 
