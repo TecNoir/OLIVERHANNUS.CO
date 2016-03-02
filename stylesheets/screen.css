@@ -458,7 +458,8 @@ figure figcaption {
 
 #hco {
 
-	float: clear;
+
+	clear: both;
 	margin-top: 50px;}
 
 #tweetod {
