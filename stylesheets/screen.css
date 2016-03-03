@@ -148,6 +148,15 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 1.3em;
 	margin-bottom: 1.5em;
 }
+@media screen and (max-width: 375px) {
+
+.size-2x.intro {font-weight: 300;}
+
+.size-2x {
+	font-size: 1.1em;
+	margin-bottom: 1.5em;
+}
+}
 p, ul, ol {
 	margin: 1em 0;
 }
@@ -158,8 +167,9 @@ p, ul, ol {
 }
 .contact-box {
 	padding: 2em 0;
-	background-color: #d3d3d3 !important;
+	background-color: #d3d3d3!important;
 	clear: both;
+	text-align: center;
 }
 .full-width {
 	background-color: white;
@@ -172,6 +182,8 @@ p, ul, ol {
 	clear: both;
 	text-align: center;
 }
+
+/*-----Availability-Calendar----------------------*/
 
 .availability-calendar ul {
 	display: flex;
@@ -245,6 +257,82 @@ li {
 .partial-availability .availability--status {
 	color: #ff9e06;
 }
+
+@media screen and (max-width: 375px){
+
+.availability-calendar ul {
+	display: block;
+	list-style: outside none none;
+	margin: 0;
+	padding: 0.5em 0;
+	
+}
+.availability-calendar li {
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #ddd;
+	float: left;
+	font-weight: bold;
+	margin: 1px;
+	padding: 0.5em 0.5em 0.5em;
+	position: relative;
+	width: 100%;
+
+	
+}
+
+.past-month {
+	background: #eee none repeat scroll 0 0 !important;
+	color: #ddd !important;
+}
+.past-month ::after {
+	background: #888 none repeat scroll 0 0;
+}
+.past-month span {
+	color: #aaa !important;
+	moz-filter: blur(0.75px)
+	webkit-filter: blur(0.75px);
+	filter: blur(0.75px);
+	display: none;
+}
+li {
+	margin: 1em 0;
+}
+.current-month::before {
+	background-color: black;
+	color: white;
+	content: "aktuell";
+	display: block;
+	font-size: 0.4em;
+	font-weight: normal;
+	padding: 0.4em 0.8em;
+	position: absolute;
+	right: 0;
+	top: 5em;
+	
+}
+.availability--status {
+	display: block;
+	font-size: 0.8em;
+	font-weight: normal;
+	margin-top: 1em;
+}
+.full-availability .availability--status {
+	color: #72a53b;
+	font-weight: bold;
+}
+.no-availability .availability--status {
+	color: #ea2a55;
+}
+.partial-availability .availability--status {
+	color: #ff9e06;
+}
+
+
+}
+
+/*-----------------ENDE Availability-Calendar-----------------*/
+
+
 .note {
 	color: #888;
 	margin-bottom: 1em;
@@ -350,6 +438,114 @@ figure figcaption {
 	top: 60px;
 	left: 30%;
 
+}
+
+.t-timeline {
+	
+	float: left;
+	margin-bottom: 50px;
+
+}
+
+#blog {
+
+	width: 50%;
+	float: right;
+	margin-top: 0;
+	padding-top: 0;
+	line-height: 2.1em;
+}
+
+#hco {
+
+
+	clear: both;
+	margin-top: 50px;}
+
+#tweetod {
+
+	margin-left:30%;
+	margin-bottom: 3em;
+}
+.tweeth2 {
+
+	margin-left: 12%;
+}
+/* Aktuelle Termine */
+.specLines {
+
+	font-size: 2em;
+	text-align: center;
+}
+.wrapper {
+	margin: 0 auto;
+	max-width: 1500px;
+    width: 85vw;
+}
+.container {
+
+	margin-top: 2em;
+
+	
+}
+.li_item {
+
+    list-style: outside none none;
+
+
+
+
+    }
+
+.box {
+	margin: 3px;
+    border: 5px solid #eee;
+    width: 18%;
+    display: inline-block;
+    float: left;
+    padding: 1em 2em 0.5em 0.5em;
+
+
+
+}
+.conferences, .workshops {
+    margin: 2em auto;
+    padding: 0;
+    position: relative;
+
+}
+.conference table {
+    display: inline-block;
+}
+.conference_date {
+    font-size: 2em;
+}
+.conference_date {
+    font-weight: 700;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 2px;
+    text-indent: 0;
+}
+.c_days {
+    margin-right: 0.25em;
+}
+.c_month {
+    font-size: 0.6em;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.conference_name {
+    color: #00bffF;
+    font-size: 1.15em;
+    font-weight: 600;
+}
+.conference_location {
+    font-size: 0.9em;
+    font-weight: 400;
+    margin-top: 0.5em;
 }
 
 @-webkit-keyframes hvr-wobble-vertical {
