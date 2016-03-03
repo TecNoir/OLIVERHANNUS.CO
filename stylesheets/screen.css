@@ -476,33 +476,39 @@ figure figcaption {
 
 	font-size: 2em;
 	text-align: center;
-	text-transform: uppercase;
 }
 .wrapper {
 	margin: 0 auto;
 	max-width: 1500px;
     width: 85vw;
-    flex-direction: row;
 }
 .container {
 
-	align-items: stretch;
-    display: flex;
-    padding: 1em 0;
+	margin-top: 2em;
 
-
+	
 }
+.li_item {
+
+    list-style: outside none none;
+
+
+
+
+    }
+
 .box {
 	margin: 3px;
-    list-style: outside none none;
-    border: 1px solid #eee;
-    width: 25%;
+    border: 5px solid #eee;
+    width: 18%;
+    display: inline-block;
+    float: left;
+    padding: 1em 2em 0.5em 0.5em;
 
 
 
 }
 .conferences, .workshops {
-    list-style: outside none none;
     margin: 2em auto;
     padding: 0;
     position: relative;
@@ -523,16 +529,16 @@ table {
     border-spacing: 2px;
     text-indent: 0;
 }
-.conference__days {
+.c_days {
     margin-right: 0.25em;
 }
-.conference__month {
+.c_month {
     font-size: 0.6em;
     font-weight: 300;
     text-transform: uppercase;
 }
 .conference_name {
-    color: #f2337d;
+    color: #00bffF;
     font-size: 1.15em;
     font-weight: 600;
 }
