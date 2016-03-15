@@ -519,19 +519,21 @@ figure figcaption {
     padding: 1em 2em 0.5em 0.5em;
 
 }
+/*------------
 .li_item:nth-of-type(1)::before {
     background-color: #f2337d;
     color: white;
     content: "Upcoming";
     display: block;
     font-size: 0.8em;
-    left: 10;
+    left: -2px;
     padding: 0.25em 0.5em;
-    position: absolute;
+    position: relative;
     text-align: center;
-    top: -10px;
+    top: 10px;
     width: 80px;
 }
+-------------*/
 .conferences, .workshops {
     margin: 2em auto;
     padding: 0;
