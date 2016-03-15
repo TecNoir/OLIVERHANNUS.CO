@@ -354,11 +354,18 @@ figure figcaption {
 
 #page_nav {
 
-	width: 300px;
+	width: 600px;
 	position: relative;
 	top: 3px;
-	left: 30%;
+	left: 15%;
 	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.slash {
+	
+	color: red;
+	font-weight: bold;
 }
 
 .kreis {
@@ -391,7 +398,7 @@ figure figcaption {
 
       position: relative;
       top: 50px;
-      left: 40px;
+      left: -60px;
       width: 1000px;
       height: 800px;
       
@@ -506,7 +513,7 @@ figure figcaption {
 .box {
 	margin: 3px;
     border: 5px solid #eee;
-    width: 22%;
+    width: 23%;
     display: inline-block;
     float: left;
     padding: 1em 2em 0.5em 0.5em;
@@ -567,6 +574,10 @@ table {
     font-size: 0.9em;
     font-weight: 400;
     margin-top: 0.5em;
+}
+.webworker {
+
+	font-size: small;
 }
 
 @-webkit-keyframes hvr-wobble-vertical {
