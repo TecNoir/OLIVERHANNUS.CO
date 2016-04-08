@@ -371,6 +371,15 @@ figure figcaption {
 	box-shadow: none;
 }
 
+@media screen and (max-width: 375px) {	
+
+	.canDo{
+
+		width: 200px;
+	}
+}
+
+
 .slash {
 	
 	color: red;
@@ -465,6 +474,69 @@ figure figcaption {
 	height: 145px;
 }
 
+@media screen and (max-width: 375px){
+
+	.scsh1 {
+
+    position: relative;
+    top: 10px;
+    left: 77px;
+    width: 350px;
+    height: 145px;
+    
+}
+
+fc1. {
+
+	padding: 0;
+
+
+}
+
+.scsh2 {
+
+    position: relative;
+    top: -135px;
+    left: 55%;
+    width:350px;
+    height: 145px;
+    
+}
+
+.scsh3 {
+
+    position: relative;
+    top: 40px;
+    left: 7%;
+    width:350px;
+    height: 145px;
+}
+
+.scsh4 {
+
+    position: relative;
+    top: -100px;
+    left: 55%;
+    width:350px;
+    height: 145px;
+}
+.scsh5{
+	position: relative;
+	top: 100px;
+	left: 7%;
+	width: 350px;
+	height: 145px;
+}
+.scsh6{
+	position: relative;
+	top: -47px;
+	left: 55%;
+	width: 350px;
+	height: 145px;
+}
+}
+
+
 #imp {
 
 	width: 450px;
@@ -537,6 +609,7 @@ figure figcaption {
 	margin: 3px;
     border: 5px solid #eee;
     width: 23%;
+    height: 15%;
     display: inline-block;
     float: left;
     padding: 1em 2em 0.5em 0.5em;
@@ -562,12 +635,7 @@ figure figcaption {
     width: 80px;
 }
 -------------*/
-.conferences, .workshops {
-    margin: 2em auto;
-    padding: 0;
-    position: relative;
 
-}
 .conference table {
     display: inline-block;
 }
@@ -614,6 +682,41 @@ table {
 	font-size: small;
 }
 
+@media screen and (min-width: 1420px){
+
+.box {
+	
+	margin: 3px;
+    border: 5px solid #eee;
+    width: 32%;
+    height: 24%;
+    display: inline-block;
+    float: left;
+    padding: 1em 2em 0.5em 0.5em;
+
+}
+.last {
+	
+	left: 0;
+}
+}
+@media screen and (max-width: 375px){
+
+.box {
+	
+	margin: 3px;
+    border: 5px solid #eee;
+    width: 90%;
+    
+    display: inline-block;
+    padding: 1em 2em 0.5em 0.5em;
+
+}
+.last {
+
+	left: 0;
+}
+}
 @-webkit-keyframes hvr-wobble-vertical {
   16.65% {
     -webkit-transform: translateY(8px);
