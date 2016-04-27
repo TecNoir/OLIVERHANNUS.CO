@@ -480,13 +480,14 @@ figure figcaption {
 
     position: relative;
     top: 10px;
-    left: 77px;
+    left: 55px;
     width: 350px;
     height: 145px;
     
+    
 }
 
-fc1. {
+.fc1 {
 
 	padding: 0;
 
@@ -496,45 +497,42 @@ fc1. {
 .scsh2 {
 
     position: relative;
-    top: -135px;
-    left: 55%;
-    width:350px;
-    height: 145px;
+    top: 30px;
+    left: 55px;
+    
     
 }
 
 .scsh3 {
 
     position: relative;
-    top: 40px;
-    left: 7%;
-    width:350px;
-    height: 145px;
+    top: 50px;
+    left: 55px;
+    
 }
 
 .scsh4 {
 
     position: relative;
-    top: -100px;
-    left: 55%;
-    width:350px;
-    height: 145px;
+    top: 70px;
+    left: 55px;
+    
 }
 .scsh5{
 	position: relative;
-	top: 100px;
-	left: 7%;
-	width: 350px;
-	height: 145px;
+	top: 90px;
+	left: 55px;
+	
 }
 .scsh6{
 	position: relative;
-	top: -47px;
-	left: 55%;
-	width: 350px;
-	height: 145px;
+	top: 110px;
+	left: 55px;
+	
 }
 }
+
+
 
 
 #imp {
