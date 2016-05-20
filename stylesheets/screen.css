@@ -417,7 +417,7 @@ figure figcaption {
       position: relative;
       top: 50px;
       left: -60px;
-      width: 1000px;
+      width: 1200px;
       margin-bottom: 300px;
       
 }
@@ -427,51 +427,44 @@ figure figcaption {
     position: relative;
     top: 10px;
     left: 77px;
-    /*width: 350px;
-    height: 145px;*/
-    
+   
 }
 
 .scsh2 {
 
     position: relative;
-    top: -135px;
-    left: 55%;
-    width:350px;
-    height: 145px;
+    top: -245px;
+    left: 45%;
+    
     
 }
 
 .scsh3 {
 
     position: relative;
-    top: 40px;
+    top: 10px;
     left: 7%;
-    width:350px;
-    height: 145px;
+    
 }
 
 .scsh4 {
 
     position: relative;
-    top: -100px;
-    left: 55%;
-    width:350px;
-    height: 145px;
+    top: -245px;
+    left: 45%;
+    
 }
 .scsh5{
 	position: relative;
-	top: 100px;
+	top: 10px;
 	left: 7%;
-	width: 350px;
-	height: 145px;
+	
 }
 .scsh6{
 	position: relative;
-	top: -47px;
-	left: 55%;
-	width: 350px;
-	height: 145px;
+	top: -245px;
+	left: 45%;
+	
 }
 
 @media screen and (max-width: 375px){
@@ -481,8 +474,6 @@ figure figcaption {
     position: relative;
     top: 10px;
     left: 55px;
-    /*width: 350px;
-    height: 145px;*/
     
     
 }
