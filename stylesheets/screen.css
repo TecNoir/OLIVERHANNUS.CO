@@ -427,8 +427,8 @@ figure figcaption {
     position: relative;
     top: 10px;
     left: 77px;
-    width: 350px;
-    height: 145px;
+    /*width: 350px;
+    height: 145px;*/
     
 }
 
@@ -481,8 +481,8 @@ figure figcaption {
     position: relative;
     top: 10px;
     left: 55px;
-    width: 350px;
-    height: 145px;
+    /*width: 350px;
+    height: 145px;*/
     
     
 }
