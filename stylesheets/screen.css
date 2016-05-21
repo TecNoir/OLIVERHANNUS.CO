@@ -411,6 +411,7 @@ figure figcaption {
 }
 }
 
+/*-----------ScreenshotBox------------------------------*/
 
 #scshBox {
 
@@ -418,7 +419,7 @@ figure figcaption {
       top: 50px;
       left: -60px;
       width: 1200px;
-      margin-bottom: 300px;
+      margin-bottom: 1100px;
       
 }
 
@@ -426,61 +427,59 @@ figure figcaption {
 
     position: relative;
     top: 10px;
-    left: 77px;
+    left: 5%;
     display: inline-block;
-    float: left;
-    margin-bottom: 7.5em;
+    margin-bottom: 5.5em;
+    float:left;
    
 }
 
 .scsh2 {
 
     position: relative;
-    top: 15px;
-    left: 25px;
+    top: 10px;
+    left: 5px;
     display: inline-block;
     margin-bottom: 7.5em;
-    
-    
+        
 }
 
 .scsh3 {
 
     position: relative;
-    top: 10px;
-    left: 7%;
+    top: 30px;
+    left: 5%;
     display: inline-block;
     float: left;
-    margin-bottom: 3.5em;
+    
     
 }
 
 .scsh4 {
 
     position: relative;
-    top: 15px;
-    left: 225px;
+    top: 33px;
+    left: 18%;
     display: inline-block;
-    margin-bottom: 3.5em;
-
+    float: left;
+    
 }
 
 .scsh5{
 	position: relative;
-	top: 300px;
-	left: -57%;
+	top: 380px;
+	left: -58%;
 	display: inline-block;
-
-	
-	
+	float: left;
 	
 }
+
 .scsh6{
 	position: relative;
-	top: -10px;
-	left: 19%;
+	top: 130px;
+	left: 49%;
 	display: inline-block;
-
+	float: left;
 
 }
 
@@ -510,65 +509,69 @@ figure figcaption {
 	text-align: center;
 }
 
+
+/*-----MQ for Smartphones (e. g. iPhone 6) ---------------------------*/
 @media screen and (max-width: 375px){
 
-	.scsh1 {
+.fc1 {padding: 0; font-size: small;}
+.projektinfo .pi {display: none; margin-bottom: 1.5em;}
+
+
+.scsh1 {
 
     position: relative;
     top: 10px;
-    left: 55px;
-    margin-bottom: 0.5em;
-    
-    
-}
-
-.fc1 {
-
-	padding: 0;
-	font-size: small;
-
-
+    left: 5%;
+    display: inline-block;
+    float: left;
+     
 }
 
 .scsh2 {
 
     position: relative;
-    top: 30px;
-    left: 55px;
-    margin-bottom: 0.5em;
-    
-    
+    top: 200px;
+    left: -11%;
+    display: inline-block;
+    float: left;
+        
 }
 
 .scsh3 {
 
     position: relative;
-    top: 50px;
-    left: 55px;
-    margin-bottom: 0.5em;
+    top: 390px;
+    left: -27%;
+    float: left;
+
 }
 
 .scsh4 {
 
     position: relative;
-    top: 70px;
-    left: 55px;
-    margin-bottom: 0.5em;
-}
-.scsh5{
-	position: relative;
-	top: 90px;
-	left: 55px;
-	margin-bottom: 0.5em;
-}
-.scsh6{
-	position: relative;
-	top: 110px;
-	left: 55px;
-	margin-bottom: 0.5em;
-}
+    top: 570px;
+    left: -43%;
+    float: left;
+
 }
 
+.scsh5{
+
+	position: relative;
+	top: 760px;
+	left: -59%;
+	float: left;
+
+}
+
+.scsh6{
+	position: relative;
+	top: 870px;
+	left: -75%;
+	
+}
+}
+/*--------------End MQ for Smartphones-----------------*/
 
 
 
