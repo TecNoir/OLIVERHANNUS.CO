@@ -753,6 +753,50 @@ figure figcaption {
 	display: inline-block;
 	
 }
+
+.scsh5{
+	position: relative;
+	top: 100px;
+	left: 5%;
+	display: inline-block;
+	float: left;
+	
+}
+
+.projektinfo5 {
+	
+	width: 200px;
+	height: 70px;
+	font-size: small;
+	color: red;
+	position: relative;
+	top: 445px;
+	left: -38%;
+	display: inline-block;
+
+}
+
+.scsh6{
+	position: relative;
+	top: 15px;
+	left: 18%;
+	display: inline-block;
+	float: left;
+
+}
+
+.projektinfo6 {
+	
+	width: 200px;
+	height: 70px;
+	font-size: small;
+	color: red;
+	position: relative;
+	top: 465px;
+	left: 5%;
+	display: inline-block;
+
+}
           }
 
 /*-------------End MQ for Big Screens -----------------*/
