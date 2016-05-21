@@ -419,7 +419,7 @@ figure figcaption {
       top: 50px;
       left: -60px;
       width: 1200px;
-      margin-bottom: 1100px;
+      margin-bottom: 600px;
       
 }
 
@@ -429,7 +429,6 @@ figure figcaption {
     top: 10px;
     left: 5%;
     display: inline-block;
-    margin-bottom: 5.5em;
     float:left;
    
 }
@@ -440,25 +439,24 @@ figure figcaption {
     top: 10px;
     left: 5px;
     display: inline-block;
-    margin-bottom: 7.5em;
-        
+	margin-bottom: 3.5em;        
 }
 
 .scsh3 {
 
     position: relative;
-    top: 30px;
+    top: 100px;
     left: 5%;
     display: inline-block;
     float: left;
-    
+
     
 }
 
 .scsh4 {
 
     position: relative;
-    top: 33px;
+    top: 99px;
     left: 18%;
     display: inline-block;
     float: left;
@@ -467,7 +465,7 @@ figure figcaption {
 
 .scsh5{
 	position: relative;
-	top: 380px;
+	top: 400px;
 	left: -58%;
 	display: inline-block;
 	float: left;
@@ -476,7 +474,7 @@ figure figcaption {
 
 .scsh6{
 	position: relative;
-	top: 130px;
+	top: 145px;
 	left: 49%;
 	display: inline-block;
 	float: left;
@@ -488,15 +486,80 @@ figure figcaption {
 	width: 200px;
 	height: 70px;
 	font-size: small;
-	
 	color: red;
 	position: relative;
 	top: 85px;
-	left: -22%;
+	left: -24%;
 	display: inline-block;
 	
 }
 
+.projektinfo2 {
+	
+	width: 200px;
+	height: 70px;
+	font-size: small;
+	color: red;
+	position: relative;
+	top: 65px;
+	left: -27%;
+	display: inline-block;
+	
+}
+
+.projektinfo3 {
+	
+	width: 200px;
+	height: 70px;
+	font-size: small;
+	color: red;
+	position: relative;
+	top: 350px;
+	left: -55%;
+	display: inline-block;
+	
+}
+
+.projektinfo4 {
+	
+	width: 200px;
+	height: 70px;
+	font-size: small;
+	color: red;
+	position: relative;
+	top: 345px;
+	left: -27%;
+	display: inline-block;
+	
+}
+
+.projektinfo5 {
+	
+	width: 200px;
+	height: 70px;
+	font-size: small;
+	color: red;
+	position: relative;
+	top: 375px;
+	left: -25%;
+	display: inline-block;
+
+}
+
+.projektinfo6 {
+	
+	width: 200px;
+	height: 70px;
+	font-size: small;
+	color: red;
+	position: relative;
+	top: 395px;
+	left: 2%;
+	display: inline-block;
+
+}
+
+	
 .pi {
 
 	padding: 4px;
@@ -514,8 +577,23 @@ figure figcaption {
 @media screen and (max-width: 375px){
 
 .fc1 {padding: 0; font-size: small;}
-.projektinfo .pi {display: none; margin-bottom: 1.5em;}
+.projektinfo,
+.projektinfo2,
+.projektinfo3,
+.projektinfo4,
+.projektinfo5,
+.projektinfo5
+ .pi {display: none; margin-bottom: 1.5em;}
 
+ #scshBox {
+
+      position: relative;
+      top: 50px;
+      left: -60px;
+      width: 1200px;
+      margin-bottom: 950px;
+      
+}
 
 .scsh1 {
 
@@ -566,7 +644,7 @@ figure figcaption {
 
 .scsh6{
 	position: relative;
-	top: 870px;
+	top: 930px;
 	left: -75%;
 	
 }
