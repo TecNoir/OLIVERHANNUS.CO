@@ -651,7 +651,111 @@ figure figcaption {
 }
 /*--------------End MQ for Smartphones-----------------*/
 
+/*--------------MQ for Big Screens----------------------*/
 
+@media screen and (min-width: 1680px) {
+
+
+#scshBox {
+
+      position: relative;
+      top: 50px;
+      left: -60px;
+      width: 1200px;
+      margin-bottom: 600px;
+      
+}
+
+.scsh1 {
+
+    position: relative;
+    top: 10px;
+    left: 5%;
+    display: inline-block;
+    float:left;
+ }
+
+ .projektinfo {
+
+	width: 200px;
+	height: 70px;
+	font-size: small;
+	color: red;
+	position: relative;
+	top: 360px;
+	left: -36%;
+	display: inline-block;
+	
+}
+
+.scsh2 {
+
+    position: relative;
+    top: -75px;
+    left: 17%;
+    display: inline-block;
+}
+
+.projektinfo2 {
+	
+	width: 200px;
+	height: 70px;
+	font-size: small;
+	color: red;
+	position: relative;
+	top: -115px;
+	left: 25%;
+	display: inline-block;
+}
+
+.scsh3 {
+
+    position: relative;
+    top: 35px;
+    left: 5%;
+    display: inline-block;
+    float: left;
+
+}
+
+.projektinfo3 {
+	
+	width: 200px;
+	height: 70px;
+	font-size: small;
+	color: red;
+	position: relative;
+	top: 385px;
+	left: -53%;
+	display: inline-block;
+	
+}
+
+.scsh4 {
+
+    position: relative;
+    top: -35px;
+    left: 18%;
+    display: inline-block;
+    float: left;
+    
+}
+
+.projektinfo4 {
+	
+	width: 200px;
+	height: 70px;
+	font-size: small;
+	color: red;
+	position: relative;
+	top: 395px;
+	left: -7%;
+	display: inline-block;
+	
+}
+          }
+
+/*-------------End MQ for Big Screens -----------------*/
 
 #imp {
 
