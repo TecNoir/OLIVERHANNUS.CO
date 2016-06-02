@@ -1,363 +1,397 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
-	<meta content="text/html"; charset="UTF-8" http-equiv="Content-Type">
-	<meta content="width=device-width, initial-scale=1" name="viewport">
-	<title>Home - Oliver Hannus - Freelance Front-end Web Developer</title>
-	<meta content="" name="google-site-verification">		
-	<meta content="de" name="language">
-	<meta content="Freelance Front-End Web Developer - Mayen" name="description">
-	<meta content="width=device-width, user-scalable=yes, initial-scale=1, user-scalable=1" name="viewport">
-	<meta content="freelancer, front-end web entwickler, HTML5, CSS3, Mayen, Koblenz, Wordpress,
-		Kirby CMS, Jekyll, Google Analytics" name="keywords">
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-	<link href="stylesheets/screen.css" rel="stylesheet">
-	
-	<!--Google Analytics-->
+    <meta content="text/html" ; charset="UTF-8" http-equiv="Content-Type">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>Home - Oliver Hannus - Frontend Webentwickler  </title>
+    <meta content="" name="google-site-verification">
+    <meta content="de" name="language">
+    <meta content="Frontend Web Entwickler - Mayen, Wolken" name="description">
+    <meta content="width=device-width, user-scalable=yes, initial-scale=1, user-scalable=1" name="viewport">
+    <meta content="front-end web entwickler, HTML, CSS, Wordpress, Webanalyse, Mayen,
+		Wolken" name="keywords">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link href="stylesheets/screen.css" rel="stylesheet">
+    <!--Google Analytics-->
+    <script type="text/javascript">
+    // Konfiguration
+    var GaTrId = 'UA-71574828-1'; // Analytics Tracking ID
+    // Ab hier nix mehr ändern!!!
+    console.log('CS Analytics: Start!');
+    // Cookie Functions
+    function gacSetCookie(name, val) {
+        document.cookie = name + '=' + val + '; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/;';
+    }
 
-	<script type="text/javascript">
-// Konfiguration
-var GaTrId='UA-71574828-1'; // Analytics Tracking ID
-// Ab hier nix mehr ändern!!!
-console.log('CS Analytics: Start!');
-// Cookie Functions
-function gacSetCookie(name,val){document.cookie=name+'='+val+'; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/;';}function gacDelCookie(name){document.cookie=name+'=; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/;';}function gacGetCookie(name,del){var re=new RegExp(name+"=([^;]+)");var value=re.exec(document.cookie);if(del){gacDelCookie(name);}return (value!=null)?unescape(value[1]):null;}
-// Analytics Cookie setzen/löschen/auslesen für eigene Zugriffe
-if(/gapageowner=1/.test(document.location.href)){gacSetCookie('gapageowner','1');alert('Analytics Tracking inactive ...');}if(/gapageowner=0/.test(document.location.href)){gacDelCookie('gapageowner');alert('Analytics Tracking active ...');}var gapageowner=0;if(/gapageowner=1/.test(document.cookie)){gapageowner=1;}
-// gapageowner Start (Cookie Abfrage)
-if(gapageowner==1){console.log('CS Analytics Debug: Creating Tracker ( ID:'+GaTrId+' | Object:CS'+i+' )');console.log('CS Analytics Debug: Send Pageview ( Page:'+document.location.hostname+document.location.pathname+document.location.search+' | Ref:'+document.referrer+' | Object:CS'+i+' )');}else{
-// Analytics Optout Cookie
-if(/gaoptoutoff=1/.test(document.location.href)){var disableStr='ga-disable-'+GaTrId;gacDelCookie('disableStr');window[disableStr]=false;alert('Google Analytics Opt-Out Cookie removed.');}
-var disableStr='ga-disable-'+GaTrId;if(document.cookie.indexOf(disableStr+'=true') > -1){window[disableStr]=true;} function gaOptout(){gacSetCookie('disableStr','true');window[disableStr]=true;}
-// Standard Tracking Code mit eigenem Objekt
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga_c');
-// Tracker mit eigenem Name erstellen
-ga_c('create',GaTrId,'auto',{'name':'CS0'});
-// Settings und Pageview
-ga_c('CS0.set','anonymizeIp',true);ga_c('CS0.send','pageview');
-// gapageowner Ende (Cookie Abfrage)
-}
-console.log('CS Analytics: Ende!');
-</script>
+    function gacDelCookie(name) {
+        document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/;';
+    }
 
-<!--End of Google Analytics-->
+    function gacGetCookie(name, del) {
+        var re = new RegExp(name + "=([^;]+)");
+        var value = re.exec(document.cookie);
+        if (del) {
+            gacDelCookie(name);
+        }
+        return (value != null) ? unescape(value[1]) : null;
+    }
+    // Analytics Cookie setzen/löschen/auslesen für eigene Zugriffe
+    if (/gapageowner=1/.test(document.location.href)) {
+        gacSetCookie('gapageowner', '1');
+        alert('Analytics Tracking inactive ...');
+    }
+    if (/gapageowner=0/.test(document.location.href)) {
+        gacDelCookie('gapageowner');
+        alert('Analytics Tracking active ...');
+    }
+    var gapageowner = 0;
+    if (/gapageowner=1/.test(document.cookie)) {
+        gapageowner = 1;
+    }
+    // gapageowner Start (Cookie Abfrage)
+    if (gapageowner == 1) {
+        console.log('CS Analytics Debug: Creating Tracker ( ID:' + GaTrId + ' | Object:CS' + i + ' )');
+        console.log('CS Analytics Debug: Send Pageview ( Page:' + document.location.hostname + document.location.pathname + document.location.search + ' | Ref:' + document.referrer + ' | Object:CS' + i + ' )');
+    } else {
+        // Analytics Optout Cookie
+        if (/gaoptoutoff=1/.test(document.location.href)) {
+            var disableStr = 'ga-disable-' + GaTrId;
+            gacDelCookie('disableStr');
+            window[disableStr] = false;
+            alert('Google Analytics Opt-Out Cookie removed.');
+        }
+        var disableStr = 'ga-disable-' + GaTrId;
+        if (document.cookie.indexOf(disableStr + '=true') > -1) {
+            window[disableStr] = true;
+        }
 
+        function gaOptout() {
+            gacSetCookie('disableStr', 'true');
+            window[disableStr] = true;
+        }
+        // Standard Tracking Code mit eigenem Objekt
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga_c');
+        // Tracker mit eigenem Name erstellen
+        ga_c('create', GaTrId, 'auto', {
+            'name': 'CS0'
+        });
+        // Settings und Pageview
+        ga_c('CS0.set', 'anonymizeIp', true);
+        ga_c('CS0.send', 'pageview');
+        // gapageowner Ende (Cookie Abfrage)
+    }
+    console.log('CS Analytics: Ende!');
+    </script>
+    <!--End of Google Analytics-->
+</head>
 
-	
-	
-	
-	</head>
 <body onload="all()">
-	<header class="clearfix main-header" role="banner">
-		<div class="wrapper clearfix">
-			<a href="" class="logo">
+    <header class="clearfix main-header" role="banner">
+        <div class="wrapper clearfix">
+            <a href="" class="logo">
 				Oliver Hannus
 			</a>
-		    <nav id="main-nav" class="main-nav" role="navigation">
-				<ul class="clearfix">
-					<li class="current">
-						<a href="index.html">Home</a>
-					</li>
-					<li class="">
-						<a href="web.html">Web</a>
-					</li>
-					<li class="">
-						<a href="work.html">Work</a>
-					</li>
-					<li class="">
-						<a href="effectuation.html">Effectuation</a>
-					</li>
-					<li class="">
-						<a href="contact.html">Contact</a>
-					</li>
-					
-				</ul>
-			</nav>
-		</div>
-		
-	</header>
-	<div class="full-width" style="#">
-		<div class="wrapper">
-
-			<div class="kreis">
-
-								
-
-			</div>
-
-			<section class="main intro">
-				<br>
-					<h3>Hallo.</h3>
-					<p class="size-2x intro">
-						Schön, dass Sie hier sind. Ich bin <strong>Oliver</strong>,
-						Frontend-Webentwickler aus dem Kreis Mayen-Koblenz. Ich bin spezialisiert auf <span class="blue">HTML5, CSS3</span> und <span class="blue">JavaScript</span> im <u>Open-Source</u>-Umfeld. Kundenprojekte realisiere ich meist mit <span class="blue">Wordpress</span>, <span class="blue">Kirby CMS</span> und <span class="blue">Jekyll</span>.
-					</p>
-					<p class="size-2x intro">
-						Interessant sind meine Dienste für alle, die ein neues oder auch erstes Webinterface suchen und dabei weder mit teuren Online-Agenturen noch mit DIY-Website-Generatoren a la Jimdo arbeiten wollen. Meine Kunden stammen oft aus dem Handwerk, da ich familienbedingt selbst aus diesem Umfeld komme und bei der <a href="http://hannus.de">Hannus Elektrotechnik GmbH</a> aus Mayen mein Büro habe.
-						
-					</p>
-					<p class="size-2x intro">
-						Meine große Leidenschaft ist das technische Web, die IT generell und das Netzwerken innerhalb der Webcommunity. Ich bin regelmäßig auf Tech-Konferenzen wie <a href="http://beyondtellerrand.com">beyond tellerrand</a>, <a href="http://codetalks.de">code.talks</a> oder Webentwickler-<a href="http://www.meetup.com/de-DE/WebWorker-Cologne/">Meetups</a> anzutreffen. In einem zweiten Berufsleben bin ich bei der Hannus Elektrotechnik GmbH zuständig für alles Kaufmännische, Organisatorische und Strategische.
-						
-					</p>
-			</section>
-
-		</div>
-	</div>
-<!---------------------ContactBox------>
-	<div class="full-width contact-box">
-		<div class="wrapper">
-			<section class="main page">
-				<p class="size-2x">
-				<b>Sie wollen ihre Website überarbeiten oder gar etwas ganz Neues?</b>
-				
-				<p>Dann stellen Sie ihre detaillierte Anfrage an<br />
-				<strong style="color: #00bffF;"><a href="mailto:oliver@oliverhannus.de">oliver@oliverhannus.de</a></strong>
-				
-				</p>
-				</p>
-			</section>
-		</div>
-		<div class="action">
-			<a href="./web.html" class="button button--blue">Was ich für Sie tun kann</a>
-		</div>
-	</div>
-<!--------------------End of Contact-Box-------------->
-
-	<h1 class="specLines">Meine aktuellen Termine</h1>
-	<div class="wrapper">
-		<section class="container">
-			<ul class="">
-				<li class="li_item">
-					<header class="box past-event">
-						<table class="conference_date">
-							<tbody>
-								<tr>
-									<td>
-										<span class="c_days">04</span>
-									</td>
-									<td>
-										<span class="c_month">März</span>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-						<p class="conference_name">
-							<a href="https://basta.net">BASTA .NET 2016</a>
-							<small class="what">Workshop</small>
-						</p>
-						<p class="conference_location">Darmstadt,
-							<abbr title="Deutschland">DEU</abbr>
-						</p>
-					</header>
-				</li>
-				<li class="li_item">
-					<header class="box past-event">
-						<table class="conference_date">
-							<tbody>
-								<tr>
-									<td>
-										<span class="c_days">10</span>
-									</td>
-									<td>
-										<span class="c_month">März</span>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-						<p class="conference_name">
-							<a href="http://www.meetup.com/de-DE/ThoughtWorksKoeln/events/227939290/">
+            <nav id="main-nav" class="main-nav" role="navigation">
+                <ul class="clearfix">
+                    <li class="current">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="">
+                        <a href="web.html">Web</a>
+                    </li>
+                    <li class="">
+                        <a href="work.html">Work</a>
+                    </li>
+                    <li class="">
+                        <a href="effectuation.html">Effectuation</a>
+                    </li>
+                    <li class="">
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="full-width" style="#">
+        <div class="wrapper">
+            <div class="kreis">
+            </div>
+            <section class="main intro">
+                <br>
+                <h3>Hallo.</h3>
+                <p class="size-2x intro">
+                    Schön, dass Sie hier sind. Ich bin <strong>Oliver</strong>, Frontend-Webentwickler aus dem Kreis Mayen-Koblenz. Ich bin spezialisiert auf <span class="blue">HTML5, CSS3</span> und <span class="blue">JavaScript</span> im <u>Open-Source</u>-Umfeld. Kundenprojekte realisiere ich meist mit <span class="blue">Wordpress</span>, <span class="blue">Kirby CMS</span> und <span class="blue">Jekyll</span>.
+                </p>
+                <p class="size-2x intro">
+                    Interessant sind meine Dienste für alle, die ein neues oder auch erstes Webinterface suchen und dabei weder mit teuren Online-Agenturen noch mit DIY-Website-Generatoren a la Jimdo arbeiten wollen. Meine Kunden stammen oft aus dem Handwerk, da ich familienbedingt selbst aus diesem Umfeld komme und bei der <a href="http://hannus.de">Hannus Elektrotechnik GmbH</a> aus Mayen mein Büro habe.
+                </p>
+                <p class="size-2x intro">
+                    Meine große Leidenschaft ist das technische Web, die IT generell und das Netzwerken innerhalb der Webcommunity. Ich bin regelmäßig auf Tech-Konferenzen wie <a href="http://beyondtellerrand.com">beyond tellerrand</a>, <a href="http://codetalks.de">code.talks</a> oder Webentwickler-<a href="http://www.meetup.com/de-DE/WebWorker-Cologne/">Meetups</a> anzutreffen. In einem zweiten Berufsleben bin ich bei der Hannus Elektrotechnik GmbH zuständig für alles Kaufmännische, Organisatorische und Strategische.
+                </p>
+            </section>
+        </div>
+    </div>
+    <!---------------------ContactBox------>
+    <div class="full-width contact-box">
+        <div class="wrapper">
+            <section class="main page">
+                <p class="size-2x">
+                    <b>Sie wollen ihre Website überarbeiten oder gar etwas ganz Neues?</b>
+                    <p>Dann stellen Sie ihre detaillierte Anfrage an
+                        <br />
+                        <strong style="color: #00bffF;"><a href="mailto:oliver@oliverhannus.de">oliver@oliverhannus.de</a></strong>
+                    </p>
+                </p>
+            </section>
+        </div>
+        <div class="action">
+            <a href="./web.html" class="button button--blue">Was ich für Sie tun kann</a>
+        </div>
+    </div>
+    <!--------------------End of Contact-Box-------------->
+    <h1 class="specLines">Meine aktuellen Termine</h1>
+    <div class="wrapper">
+        <section class="container">
+            <ul class="">
+                <li class="li_item">
+                    <header class="box past-event">
+                        <table class="conference_date">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <span class="c_days">04</span>
+                                    </td>
+                                    <td>
+                                        <span class="c_month">März</span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="conference_name">
+                            <a href="https://basta.net">BASTA .NET 2016</a>
+                            <small class="what">Workshop</small>
+                        </p>
+                        <p class="conference_location">Darmstadt,
+                            <abbr title="Deutschland">DEU</abbr>
+                        </p>
+                    </header>
+                </li>
+                <li class="li_item">
+                    <header class="box past-event">
+                        <table class="conference_date">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <span class="c_days">10</span>
+                                    </td>
+                                    <td>
+                                        <span class="c_month">März</span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="conference_name">
+                            <a href="http://www.meetup.com/de-DE/ThoughtWorksKoeln/events/227939290/">
 								Meetup Javascript</a>
-							<small class="what">Workshop+Networking</small>
-						</p>
-						<p class="conference_location">Köln,
-							<abbr title="Deutschland">DEU</abbr>
-						</p>
-					</header>
-				</li>
-				<li class="li_item">
-					<header class="box past-event">
-						<table class="conference_date">
-							<tbody>
-								<tr>
-									<td>
-										<span class="c_days">19-20</span>
-									</td>
-									<td>
-										<span class="c_month">März</span>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-						<p class="conference_name">
-							<a href="http://christian-bischoff.com">Christian Bischoff</a>
-							<small class="what">Workshop</small>
-						</p>
-						<p class="conference_location">Frankfurt a. M.,
-							<abbr title="Deutschland">DEU</abbr>
-						</p>
-					</header>
-				</li>
-				<li class="li_item">
-					<header class="box">
-						<table class="conference_date">
-							<tbody>
-								<tr>
-									<td>
-										<span class="c_days">14</span>
-									</td>
-									<td>
-										<span class="c_month">Juni</span>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-						<p class="conference_name">
-							<a href="http://www.startplatz.de/event/startplatz-workshop-online-marketing-grundlagen/?tag=Workshop">Online Marketing</a>
-							<small class="what">Workshop</small>
-						</p>
-						<p class="conference_location">Köln Startplatz,
-							<abbr title="Deutschland">DEU</abbr>
-						</p>
-					</header>
-				</li>
-				<li class="li_item">
-					<header class="box">
-						<table class="conference_date">
-							<tbody>
-								<tr>
-									<td>
-										<span class="c_days">17</span>
-									</td>
-									<td>
-										<span class="c_month">Juni</span>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-						<p class="conference_name">
-							<a href="http://barcamp-koblenz.de/">BarCamp Koblenz</a>
-							<small class="what">Maybe Speaking</small>
-						</p>
-						<p class="conference_location">Koblenz,
-							<abbr title="Deutschland">DEU</abbr>
-						</p>
-					</header>
-				</li>
-				<li class="li_item">
-					<header class="box">
-						<table class="conference_date">
-							<tbody>
-								<tr>
-									<td>
-										<span class="c_days">2</span>
-									</td>
-									<td>
-										<span class="c_month">Sep</span>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-						<p class="conference_name">
-							<a href="https://nightlybuild.io/">Nightlybuild 2016</a>
-							<small class="what">Networking</small>
-						</p>
-						<p class="conference_location">Köln,
-							<abbr title="Deutschland">DEU</abbr>
-						</p>
-					</header>
-				</li>
-				<li class="li_item">
-					<header class="box">
-						<table class="conference_date">
-							<tbody>
-								<tr>
-									<td>
-										<span class="c_days">29-30</span>
-									</td>
-									<td>
-										<span class="c_month">Sep</span>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-						<p class="conference_name">
-							<a href="https://codetalks.de/">Code Talks 2016</a>
-							<small class="what">Networking</small>
-						</p>
-						<p class="conference_location">Hamburg,
-							<abbr title="Deutschland">DEU</abbr>
-						</p>
-					</header>
-				</li>
-				<li class="li_item">
-					<header class="box">
-						<table class="conference_date">
-							<tbody>
-								<tr>
-									<td>
-										<span class="c_days">11-12</span>
-									</td>
-									<td>
-										<span class="c_month">Nov</span>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-						<p class="conference_name">
-							<a href="http://vqme.de/">VQME MV 2016</a>
-							<small class="what">Speaking</small>
-						</p>
-						<p class="conference_location">Konstanz,
-							<abbr title="Deutschland">DEU</abbr>
-						</p>
-					</header>
-				</li>
-				
-				<li class="li_item">
-					<header class="box last">
-						<table class="conference_date">
-							<tbody>
-								<tr>
-									<td>
-										<span class="webworker">Jeden 3. Mittwoch/Monat</span>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-						<p class="conference_name">
-							<a href="https://codetalks.de/">WebWorkerMeetup</a>
-							<small class="what">Networking</small>
-						</p>
-						<p class="conference_location">Köln,
-							<abbr title="Deutschland">DEU</abbr>
-						</p>
-					</header>
-				</li>
-				
-
-			
-		</section>
-	</div>
-
-
-		<footer role="contentinfo" class="main-footer full-width clearfix">
-			<div class="wrapper clearfix">
-				<section class="main">
-					<p><a href="https://twitter.com/oliverHannus" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @oliverHannus</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
-	
-    
-			<p class="copyright">
-				Copyright Oliver Hannus 2016 | All rights reserved | <a href="impressum.html">Impressum</a>
-			</p>
-				</section>
-				
-			</div>
-								</footer>
-	
-
-				
-	
-</body>			
+                            <small class="what">Workshop+Networking</small>
+                        </p>
+                        <p class="conference_location">Köln,
+                            <abbr title="Deutschland">DEU</abbr>
+                        </p>
+                    </header>
+                </li>
+                <li class="li_item">
+                    <header class="box past-event">
+                        <table class="conference_date">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <span class="c_days">19-20</span>
+                                    </td>
+                                    <td>
+                                        <span class="c_month">März</span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="conference_name">
+                            <a href="http://christian-bischoff.com">Christian Bischoff</a>
+                            <small class="what">Workshop</small>
+                        </p>
+                        <p class="conference_location">Frankfurt a. M.,
+                            <abbr title="Deutschland">DEU</abbr>
+                        </p>
+                    </header>
+                </li>
+                <li class="li_item">
+                    <header class="box">
+                        <table class="conference_date">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <span class="c_days">14</span>
+                                    </td>
+                                    <td>
+                                        <span class="c_month">Juni</span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="conference_name">
+                            <a href="http://www.startplatz.de/event/startplatz-workshop-online-marketing-grundlagen/?tag=Workshop">Online Marketing</a>
+                            <small class="what">Workshop</small>
+                        </p>
+                        <p class="conference_location">Köln Startplatz,
+                            <abbr title="Deutschland">DEU</abbr>
+                        </p>
+                    </header>
+                </li>
+                <li class="li_item">
+                    <header class="box">
+                        <table class="conference_date">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <span class="c_days">17</span>
+                                    </td>
+                                    <td>
+                                        <span class="c_month">Juni</span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="conference_name">
+                            <a href="http://barcamp-koblenz.de/">BarCamp Koblenz</a>
+                            <small class="what">Maybe Speaking</small>
+                        </p>
+                        <p class="conference_location">Koblenz,
+                            <abbr title="Deutschland">DEU</abbr>
+                        </p>
+                    </header>
+                </li>
+                <li class="li_item">
+                    <header class="box">
+                        <table class="conference_date">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <span class="c_days">2</span>
+                                    </td>
+                                    <td>
+                                        <span class="c_month">Sep</span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="conference_name">
+                            <a href="https://nightlybuild.io/">Nightlybuild 2016</a>
+                            <small class="what">Networking</small>
+                        </p>
+                        <p class="conference_location">Köln,
+                            <abbr title="Deutschland">DEU</abbr>
+                        </p>
+                    </header>
+                </li>
+                <li class="li_item">
+                    <header class="box">
+                        <table class="conference_date">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <span class="c_days">29-30</span>
+                                    </td>
+                                    <td>
+                                        <span class="c_month">Sep</span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="conference_name">
+                            <a href="https://codetalks.de/">Code Talks 2016</a>
+                            <small class="what">Networking</small>
+                        </p>
+                        <p class="conference_location">Hamburg,
+                            <abbr title="Deutschland">DEU</abbr>
+                        </p>
+                    </header>
+                </li>
+                <li class="li_item">
+                    <header class="box">
+                        <table class="conference_date">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <span class="c_days">11-12</span>
+                                    </td>
+                                    <td>
+                                        <span class="c_month">Nov</span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="conference_name">
+                            <a href="http://vqme.de/">VQME MV 2016</a>
+                            <small class="what">Speaking</small>
+                        </p>
+                        <p class="conference_location">Konstanz,
+                            <abbr title="Deutschland">DEU</abbr>
+                        </p>
+                    </header>
+                </li>
+                <li class="li_item">
+                    <header class="box last">
+                        <table class="conference_date">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <span class="webworker">Jeden 3. Mittwoch/Monat</span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="conference_name">
+                            <a href="https://codetalks.de/">WebWorkerMeetup</a>
+                            <small class="what">Networking</small>
+                        </p>
+                        <p class="conference_location">Köln,
+                            <abbr title="Deutschland">DEU</abbr>
+                        </p>
+                    </header>
+                </li>
+        </section>
+    </div>
+    <footer role="contentinfo" class="main-footer full-width clearfix">
+        <div class="wrapper clearfix">
+            <section class="main">
+                <p><a href="https://twitter.com/oliverHannus" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @oliverHannus</a>
+                    <script>
+                    ! function(d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0],
+                            p = /^http:/.test(d.location) ? 'http' : 'https';
+                        if (!d.getElementById(id)) {
+                            js = d.createElement(s);
+                            js.id = id;
+                            js.src = p + '://platform.twitter.com/widgets.js';
+                            fjs.parentNode.insertBefore(js, fjs);
+                        }
+                    }(document, 'script', 'twitter-wjs');
+                    </script>
+                </p>
+                <p class="copyright">
+                    Copyright Oliver Hannus 2016 | All rights reserved | <a href="impressum.html">Impressum</a>
+                </p>
+            </section>
+        </div>
+    </footer>
+</body>
