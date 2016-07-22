@@ -188,6 +188,13 @@ aside {
     width: 65vw;
 }
 
+@media screen and (max-width: 375px){
+ .main, aside{
+
+    width: 90vw;
+ }
+}
+
 .contact-box {
     padding: 2em 0;
     background-color: #d3d3d3!important;
@@ -921,14 +928,15 @@ table {
 #pre{
 
     border: 2px solid grey;
-    padding: 4px;
+    padding: 2px;
     background-color: #F0E68C;
+    margin-right: 20%;
 
 }
 
 .trackingSnippet{
 
-    display: block;
+    right: 20%;
 }
 
 #cmsTracking{
@@ -938,6 +946,16 @@ table {
     margin: 5px;
     background-color: #f5f5f5;
 
+}
+
+.level:after {
+
+    content: "Beginner";
+    background-color: red;
+    color: white;
+    font-size: small;
+    margin-left: 20px;
+    padding: 3px;
 }
 
 @-webkit-keyframes hvr-wobble-vertical {
