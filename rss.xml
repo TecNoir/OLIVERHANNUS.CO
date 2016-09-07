@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<rss version="2.0" >
+<channel>
+<title>Oliver Hannus Webentwicklung und Digital Marketing RSS-Feed</title>
+<link>http://oliverhannus.de</link>
+<description>Alle Artikel von oliverhannus.de</description>
+<language>de-de</language>
+<copyright>2016 oliverhannus.de</copyright>
+
+<item>
+<title>Meine Artikel zu Google Analytics</title>
+<link>http://feeds.feedburner.com/OliverHannus</link>
+<description>Google Analytics - Einfach erklaert</description>
+</item>
+<pubDate>Wed, 7 Sep 2016 11:15:36 GMT</pubDate>
+</channel>
+</rss>

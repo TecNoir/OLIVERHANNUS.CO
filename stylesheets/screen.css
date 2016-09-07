@@ -262,7 +262,6 @@ aside {
 
 .past-month span {
     color: #aaa !important;
-    moz-filter: blur(0.75px) webkit-filter: blur(0.75px);
     filter: blur(0.75px);
     display: none;
 }
@@ -326,7 +325,6 @@ li {
     }
     .past-month span {
         color: #aaa !important;
-        moz-filter: blur(0.75px) webkit-filter: blur(0.75px);
         filter: blur(0.75px);
         display: none;
     }
@@ -401,15 +399,11 @@ figure figcaption {
     color: #F5F5DC;
 }
 
-.not {
-    margin-bottom: 150px;
-    background-color: #cd5c5c;
-    box-shadow: none;
-}
 
 @media screen and (max-width: 375px) {
     .canDo {
-        width: 200px;
+        width: 320px;
+        
     }
 }
 
@@ -761,26 +755,10 @@ figure figcaption {
 
 /*-------------End MQ for Big Screens -----------------*/
 
-#imp {
-    width: 450px;
-    height: 450px;
-    background-color: #d3d3d3;
-    position: fixed;
-    top: 60px;
-    left: 30%;
-}
 
 .t-timeline {
     float: left;
     margin-bottom: 50px;
-}
-
-#blog {
-    width: 50%;
-    float: right;
-    margin-top: 0;
-    padding-top: 0;
-    line-height: 2.1em;
 }
 
 #hco {
@@ -788,14 +766,6 @@ figure figcaption {
     margin-top: 50px;
 }
 
-#tweetod {
-    margin-left: 30%;
-    margin-bottom: 3em;
-}
-
-.tweeth2 {
-    margin-left: 12%;
-}
 
 
 /* Aktuelle Termine */
@@ -966,32 +936,14 @@ table {
     padding: 3px;
 }
 
-@-webkit-keyframes hvr-wobble-vertical {
-    16.65% {
-        -webkit-transform: translateY(8px);
-        transform: translateY(8px);
-    }
-    33.3% {
-        -webkit-transform: translateY(-6px);
-        transform: translateY(-6px);
-    }
-    49.95% {
-        -webkit-transform: translateY(4px);
-        transform: translateY(4px);
-    }
-    66.6% {
-        -webkit-transform: translateY(-2px);
-        transform: translateY(-2px);
-    }
-    83.25% {
-        -webkit-transform: translateY(1px);
-        transform: translateY(1px);
-    }
-    100% {
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-    }
+.fb_pos {
+
+    margin-left: 15px;
+    position: relative;
+    top: -6px;
 }
+
+
 
 @keyframes hvr-wobble-vertical {
     16.65% {
