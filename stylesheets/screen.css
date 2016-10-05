@@ -405,7 +405,7 @@ figure figcaption {
     color: #00bffF;
 }
 
-.canDo {
+.P1 {
     width: 980px;
     position: relative;
     top: 25px;
@@ -413,6 +413,19 @@ figure figcaption {
     margin-bottom: 50px;
     padding: 30px;
     background-color: #48d1CC;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    color: #F5F5DC;
+}
+
+.P2 {
+    width: 980px;
+    position: relative;
+    top: 25px;
+    border: 1px solid #FFF;
+    margin-bottom: 50px;
+    padding: 30px;
+    background-color: #DC143C;
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     color: #F5F5DC;
@@ -776,7 +789,7 @@ figure figcaption {
     margin-bottom: 50px;
 }
 
-#hco {
+.OH {
     clear: both;
     margin-top: 50px;
 }
@@ -794,6 +807,12 @@ figure figcaption {
     margin: 0 auto;
     max-width: 1500px;
     width: 85vw;
+}
+
+.rich{
+
+    clear: both;
+    display: none;
 }
 
 .container {
@@ -958,6 +977,15 @@ table {
     top: -6px;
 }
 
+.CM:after {
+
+    content: "Artikel";
+    background-color: red;
+    color: white;
+    font-size: small;
+    margin-left: 20px;
+    padding: 3px;
+}
 
 
 @keyframes hvr-wobble-vertical {
