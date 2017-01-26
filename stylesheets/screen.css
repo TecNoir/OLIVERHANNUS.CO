@@ -100,25 +100,61 @@ a {
 
 .logo {
     float: left;
-    margin-top: 0.25em;
-    max-width: 250px;
-    font-family: 'Lobster', cursive;
-    font-size: 2em;
-    color: grey;
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../logo/final/Logo_190_2.png);
+   }
+.oh_name{
+    position: relative;
+    top: 165px;
+    left: -165px;
 }
+@media screen and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (orientation: portrait){
+.logo {
+    background-image: url(../logo/final/Logo_95.png);
+    width: 100px;
+    height: 100px;
+}
+.oh_name{
+    position: relative;
+    top: 40px;
+    left: 30px;
+}
+}
+
 
 .logo:hover {
     transition: transform 0.3s ease-in-out 0.3s;
     transform: scale(1.2);
 }
 
+.xmas {
+    text-align: center;
+    color: red;
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 0px 0px 20px;
+}
+
 .lasupt {
 
-    position: absolute;
-    top: 75px;
+    float: right;
+    top: 0px;
     left: 35px;
     color: red;
     font-size: small;}
+
+.fb_png {
+
+    float: right;
+    text-decoration: none;
+    margin-right: 25px;
+}
 
 @media screen and (max-width: 375px) {
 
@@ -131,8 +167,8 @@ a {
 }
 
 .main-header {
-    border-bottom: 1px solid #eee;
-    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.075);
+    /*border-bottom: 1px solid #eee;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.075);*/
     padding: 0.25em 1em;
     position: relative;
     z-index: 1;
@@ -160,10 +196,10 @@ a {
     overflow: hidden;
 }
 
-h3 {
+/*h3 {
     font-size: 1.6em;
     text-transform: capitalize;
-}
+}*/
 
 h1,
 h2,
@@ -171,7 +207,7 @@ h3,
 h4,
 h5,
 h6 {
-    line-height: 1.3;
+    
     margin: 1.5em 0 .5em;
 }
 
@@ -310,7 +346,7 @@ li {
 }
 
 .full-availability .availability--status {
-    color: #72a53b;
+    color: #00bffF;
     font-weight: bold;
 }
 
@@ -431,7 +467,50 @@ figure figcaption {
     color: #F5F5DC;
 }
 
-
+@media screen and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (orientation: portrait){
+    .P1,
+    .P2 {
+        width: 365px;
+        left: -40px;
+        padding: 8px;
+        margin-bottom: 15px;
+    }
+}
+@media screen and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (orientation: landscape){
+    .P1,
+    .P2 {
+        width: 600px;
+        left: -50px;
+        padding: 8px;
+        margin-bottom: 15px;
+    }
+}
+@media screen and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: portrait){
+    .P1,
+    .P2 {
+        width: 680px;
+        left: -40px;
+        padding: 8px;
+        margin-bottom: 15px;
+    }
+}
+@media screen and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: landscape){
+    .P1,
+    .P2 {
+        width: 800px;
+        left: -60px;
+        padding: 8px;
+        margin-bottom: 15px;
+    }
+}
 @media screen and (max-width: 375px) {
     .canDo {
         width: 320px;
@@ -445,8 +524,6 @@ figure figcaption {
 }
 
 .bg-fixed {
-
-    
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -454,6 +531,22 @@ figure figcaption {
     background-image: url(../images/huge.jpg);
 }
 
+@media screen
+and (min-device-width: 375px)
+and (max-device-width: 667px){
+    .bg-fixed {
+      background: transparent;
+        
+    }
+}
+@media screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px){
+    .bg-fixed {
+        background: transparent;
+        
+    }
+}
 @media screen and (max-width: 568px) {
     .kreis {
         height: 70px;
@@ -472,122 +565,67 @@ figure figcaption {
     top: 50px;
     left: -60px;
     width: 1200px;
-    margin-bottom: 600px;
+    height: 1250px;
+    margin-bottom: 40px;
 }
 
 .scsh1 {
     position: relative;
     top: 10px;
     left: 5%;
-    display: inline-block;
-    float: left;
+   
 }
 
 .scsh2 {
     position: relative;
-    top: 10px;
-    left: 5px;
-    display: inline-block;
-    margin-bottom: 3.5em;
+    top: -240px;
+    left: 550px;
+    
 }
 
 .scsh3 {
     position: relative;
-    top: 100px;
+    top: -200px;
     left: 5%;
-    display: inline-block;
-    float: left;
+    
 }
 
 .scsh4 {
     position: relative;
-    top: 99px;
-    left: 18%;
-    display: inline-block;
-    float: left;
+    top: -455px;
+    left: 46%;
+    
 }
 
 .scsh5 {
     position: relative;
-    top: 400px;
-    left: -58%;
-    display: inline-block;
-    float: left;
+    top: -400px;
+    left: 5%;
+    
 }
 
 .scsh6 {
     position: relative;
-    top: 170px;
-    left: 49%;
-    display: inline-block;
-    float: left;
+    top: -630px;
+    left: 45%;
+    
+}
+.scsh7 {
+    position: relative;
+    top: -570px;
+    left: 5%;    
+}
+.scsh8 {
+    position: relative;
+    top: -817px;
+    left: 45%;
+    width: 375px;
+    height: 211px;
+    border: 5px solid black;
+    text-align: center;
+    font-size: large;
 }
 
-.projektinfo {
-    width: 200px;
-    height: 70px;
-    font-size: small;
-    color: red;
-    position: relative;
-    top: 85px;
-    left: -24%;
-    display: inline-block;
-}
-
-.projektinfo2 {
-    width: 200px;
-    height: 70px;
-    font-size: small;
-    color: red;
-    position: relative;
-    top: 65px;
-    left: -27%;
-    display: inline-block;
-}
-
-.projektinfo3 {
-    width: 200px;
-    height: 70px;
-    font-size: small;
-    color: red;
-    position: relative;
-    top: 350px;
-    left: -55%;
-    display: inline-block;
-}
-
-.projektinfo4 {
-    width: 200px;
-    height: 70px;
-    font-size: small;
-    color: red;
-    position: relative;
-    top: 345px;
-    left: -27%;
-    display: inline-block;
-}
-
-.projektinfo5 {
-    width: 200px;
-    height: 70px;
-    font-size: small;
-    color: red;
-    position: relative;
-    top: 375px;
-    left: -25%;
-    display: inline-block;
-}
-
-.projektinfo6 {
-    width: 200px;
-    height: 70px;
-    font-size: small;
-    color: red;
-    position: relative;
-    top: 395px;
-    left: 2%;
-    display: inline-block;
-}
 
 .pi {
     padding: 4px;
@@ -608,21 +646,13 @@ figure figcaption {
         padding: 0;
         font-size: small;
     }
-    .projektinfo,
-    .projektinfo2,
-    .projektinfo3,
-    .projektinfo4,
-    .projektinfo5,
-    .projektinfo5 .pi {
-        display: none;
-        margin-bottom: 1.5em;
-    }
+    
     #scshBox {
         position: relative;
         top: 50px;
         left: -60px;
         width: 1200px;
-        margin-bottom: 950px;
+        margin-bottom: 95px;
     }
     .scsh1 {
         position: relative;
@@ -661,6 +691,15 @@ figure figcaption {
         top: 930px;
         left: -75%;
     }
+    .scsh7 {
+        position: relative;
+        top: 970px;
+        left: -75%;
+    }
+    .scsh8 {
+        
+        display: none;
+    }
 }
 
 
@@ -675,108 +714,58 @@ figure figcaption {
         top: 50px;
         left: -60px;
         width: 1200px;
-        margin-bottom: 600px;
+        margin-bottom: 350px;
     }
     .scsh1 {
         position: relative;
         top: 10px;
         left: 5%;
-        display: inline-block;
-        float: left;
+        
     }
-    .projektinfo {
-        width: 200px;
-        height: 70px;
-        font-size: small;
-        color: red;
-        position: relative;
-        top: 360px;
-        left: -36%;
-        display: inline-block;
-    }
+    
     .scsh2 {
         position: relative;
-        top: -75px;
-        left: 17%;
-        display: inline-block;
+        top: -350px;
+        left: 60%;
+        
     }
-    .projektinfo2 {
-        width: 200px;
-        height: 70px;
-        font-size: small;
-        color: red;
-        position: relative;
-        top: -115px;
-        left: 25%;
-        display: inline-block;
-    }
+    
     .scsh3 {
         position: relative;
-        top: 35px;
+        top: -320px;
         left: 5%;
-        display: inline-block;
-        float: left;
+       
     }
-    .projektinfo3 {
-        width: 200px;
-        height: 70px;
-        font-size: small;
-        color: red;
-        position: relative;
-        top: 385px;
-        left: -53%;
-        display: inline-block;
-    }
+    
     .scsh4 {
         position: relative;
-        top: -35px;
-        left: 18%;
-        display: inline-block;
-        float: left;
-    }
-    .projektinfo4 {
-        width: 200px;
-        height: 70px;
-        font-size: small;
-        color: red;
-        position: relative;
-        top: 395px;
-        left: -7%;
-        display: inline-block;
-    }
+        top: -680px;
+        left: 60%;
+            }
+    
     .scsh5 {
         position: relative;
-        top: 100px;
+        top: -650px;
         left: 5%;
-        display: inline-block;
-        float: left;
+        
     }
-    .projektinfo5 {
-        width: 200px;
-        height: 70px;
-        font-size: small;
-        color: red;
-        position: relative;
-        top: 445px;
-        left: -38%;
-        display: inline-block;
-    }
+  
     .scsh6 {
         position: relative;
-        top: 15px;
-        left: 18%;
-        display: inline-block;
-        float: left;
-    }
-    .projektinfo6 {
-        width: 200px;
-        height: 70px;
-        font-size: small;
-        color: red;
+        top: -970px;
+        left: 60%;
+        
+            }
+    .scsh7 {
         position: relative;
-        top: 465px;
-        left: 5%;
-        display: inline-block;
+        top: -960px;
+    }
+    .scsh8 {
+        position: relative;
+        top: -1310px;
+        left: 60%;
+        width: 560px;
+        height: 315px;
     }
 }
 
@@ -784,14 +773,14 @@ figure figcaption {
 /*-------------End MQ for Big Screens -----------------*/
 
 
-.t-timeline {
-    float: left;
-    margin-bottom: 50px;
+.OH {
+    
+    margin-top: 50px;
 }
 
-.OH {
-    clear: both;
-    margin-top: 50px;
+.ul_head {
+    font-weight: bold;
+    font-size: 14px;
 }
 
 
@@ -985,6 +974,24 @@ table {
     font-size: small;
     margin-left: 20px;
     padding: 3px;
+}
+
+.video_text {
+    clear: both;
+    position: relative;
+    top: 100px;
+}
+.video_vqme {
+    margin-top: 150px;
+    left: 0;
+}
+@media screen and (max-width: 375px) {
+    .video_mobile {
+      width: 280px;
+      height: 189px;
+      left: 0;
+    }
+
 }
 
 

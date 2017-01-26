@@ -3,7 +3,9 @@
 <head>
 	<meta charset="utf-8" />
 	<link href="stylesheets/screen.css" rel="stylesheet">
-    <title>Oliver Hannus - Frontend Webentwickler</title>
+    <title>Impressum - Oliver Hannus</title>
+    <meta name="description" content="Das ist das Impressum der Internetseite www.oliverhannus.de">
+    <link rel="icon" href="logo/final/favicon_32x32.png" sizes="32x32" type="image/vnd.microsoft.icon">
     <script type="text/javascript">
 
     window.onload = 
@@ -11,11 +13,11 @@
     function impress () {
 
     	var basis = document.getElementById("imp");
-    	var h2 = document.createElement("h2");
-    	h2.innerHTML ="Impressum";
-        h2.style.cssText = 'text-align: center';
+    	var h1 = document.createElement("h1");
+    	h1.innerHTML ="Impressum";
+        h1.style.cssText = 'text-align: center';
     	var p = document.createElement("p");
-        var impText = "Verantwortlich für den Inhalt dieser Seite:<br><br>Oliver Hannus Webentwicklung<br>Büro Mayen:<br>Kottenheimer Weg 11 a<br>56727 Mayen<br>\r\n"
+        var impText = "Verantwortlich für den Inhalt dieser Seite:<br><br>Oliver Hannus Webentwicklung & Online-Marketing<br>Büro Mayen:<br>Kottenheimer Weg 11 a<br>56727 Mayen<br>\r\n"
             impText += "Tel. 0 26 51/4 80 31<br>Büro Wolken:<br>Hauptstraße 9<br>56332 Wolken<br>Tel. 0171/6066424<br>oliver@oliverhannus.de<br><br>";
             
 
@@ -24,8 +26,8 @@
         var disclaimer = document.createElement("a");
         disclaimer.setAttribute("href", "disclaimer.html");
         disclaimer.innerHTML = "Disclaimer - Rechtliche Hinweise für Nutzer dieser Website";
-       	basis.appendChild(h2);
-    	h2.appendChild(p);
+       	basis.appendChild(h1);
+    	h1.appendChild(p);
         p.appendChild(disclaimer);
     }
 
