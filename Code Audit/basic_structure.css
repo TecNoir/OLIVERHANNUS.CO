@@ -1,0 +1,39 @@
+
+.main,
+aside {
+    padding: 1em;
+    margin: 0 auto;
+    width: 65vw;
+}
+
+full-width {
+    background-color: white;
+    overflow: hidden;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1500px;
+    width: 85vw;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: " ";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: " ";
+    display: table;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1500px;
+}

@@ -10,6 +10,11 @@ body {
     line-height: 1.6;
 }
 
+.kursiv {
+
+    font-style: italic;
+}
+
 .main-nav {
     clear: none;
     float: right;
@@ -23,32 +28,14 @@ body {
     position: relative;
     width: 100%;
 }
-
 .main-nav ul li.current a {
     color: #00bffF;
 }
-
-/*-----------
-.main-nav ul li a:hover,
-.main-nav ul li a:active {
-    color: #00bffF;
-    -moz-transform: rotate(-5deg) scale(1.5);
-    -webkit-transform: rotate(-5deg) scale(1.5);
-    -o-transform: rotate(-5deg) scale(1.5);
-    transform: rotate(-5deg) scale(1.5);
-    transition-delay: 0.3s;
-    transition-duration: 0.3s;
-    transition-property: transform;
-    transition-timing-function: ease-in-out;
-    transform: rotate(-8deg) scale(1.5);
-}
---------*/
 a:hover,
 a:active {
     border-bottom: 1px solid #f12481;
     color: #00bffF;
 }
-
 a {
     border-bottom: 1px solid currentcolor;
     color: inherit;
@@ -76,6 +63,60 @@ a {
     margin: 5px -3px 2px 0;
     text-transform: uppercase;
 }
+@media screen and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (orientation: portrait){
+    .main-nav ul li {
+        display: block;
+        font-size: 10px;
+        margin: 2px;
+        
+    }
+    .main-nav ul li a {
+        padding: 0.3em;
+    }
+    .main-nav ul {
+        position: relative;
+        left: -220px;
+        top: 80px;
+        margin-bottom: 25px;
+    }
+}
+.wrapper {
+    margin: 0 auto;
+    max-width: 1500px;
+    width: 85vw;
+}
+
+@media screen and (max-width: 375px)
+and (max-device-width: 667px)
+and (orientation: portrait){
+    .wrapper {
+        width: 100%;
+    }
+}
+.main,
+aside {
+    padding: 1em;
+    margin: 0 auto;
+    width: 65vw;
+}
+.web,
+aside {
+    padding: 1em;
+    margin: 0 auto;
+    width: 85vw;
+}
+
+@media screen and (max-width: 375px)
+and (max-device-width: 667px)
+and (orientation: portrait){
+ .main, aside{
+
+    width: 98vw;
+ }
+}
+
 
 .clearfix::before,
 .clearfix::after {
@@ -91,11 +132,6 @@ a {
 .clearfix::after {
     content: " ";
     display: table;
-}
-
-.wrapper {
-    margin: 0 auto;
-    max-width: 1500px;
 }
 
 .logo {
@@ -141,13 +177,9 @@ and (orientation: portrait){
     text-shadow: 0px 0px 20px;
 }
 
-.lasupt {
-
-    float: right;
-    top: 0px;
-    left: 35px;
-    color: red;
-    font-size: small;}
+.underline {text-decoration: underline;
+            font-size: bold;}
+            
 
 .fb_png {
 
@@ -156,14 +188,17 @@ and (orientation: portrait){
     margin-right: 25px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 375px)
+and (max-device-width: 667px)
+and (orientation: portrait){
+    .fb_png {
+        position: absolute;
+        top: 140px;
+        right: 75px;
+        
+    }
 
-.lasupt {
 
-    position: relative;
-    top: 12px;
-    left: 7px;
-}
 }
 
 .main-header {
@@ -201,6 +236,7 @@ and (orientation: portrait){
     text-transform: capitalize;
 }*/
 
+
 h1,
 h2,
 h3,
@@ -230,31 +266,32 @@ h6 {
     }
 }
 
+#artikel {
+
+    position: fixed;
+    top: 270px;
+    left: 4px;
+}
+@media screen and (max-width: 375px) {
+    #artikel {
+        display: none;
+    }
+}
+
+.ma_list{
+    list-style-type: none;
+}
+.ma_item{
+    font-size: x-small;
+}
+
 p,
 ul,
 ol {
     margin: 1em 0;
 }
 
-.main,
-aside {
-    padding: 1em;
-    margin: 0 auto;
-    width: 65vw;
-}
-.web,
-aside {
-    padding: 1em;
-    margin: 0 auto;
-    width: 85vw;
-}
 
-@media screen and (max-width: 375px){
- .main, aside{
-
-    width: 90vw;
- }
-}
 
 .contact-box {
     padding: 2em 0;
@@ -792,11 +829,7 @@ and (max-device-width: 1024px){
     text-align: center;
 }
 
-.wrapper {
-    margin: 0 auto;
-    max-width: 1500px;
-    width: 85vw;
-}
+
 
 .rich{
 
@@ -968,8 +1001,35 @@ table {
 
 .CM:after {
 
-    content: "Artikel";
+    content: "Content Marketing";
     background-color: red;
+    color: white;
+    font-size: small;
+    margin-left: 20px;
+    padding: 3px;
+}
+.OR:after {
+
+    content: "Online-Recht";
+    background-color: green;
+    color: white;
+    font-size: small;
+    margin-left: 20px;
+    padding: 3px;
+}
+.FB:after {
+
+    content: "Facebook";
+    background-color: blue;
+    color: white;
+    font-size: small;
+    margin-left: 20px;
+    padding: 3px;
+}
+.SEO:after {
+
+    content: "SEO";
+    background-color: #FFA500;
     color: white;
     font-size: small;
     margin-left: 20px;
